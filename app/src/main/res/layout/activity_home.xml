@@ -10,10 +10,43 @@
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="48dp"
+        android:layout_toEndOf="@+id/button2"
         android:onClick="focusMe"
-        android:text="Button"
+        android:text="Button 1"
         tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="108dp"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        tools:layout_editor_absoluteY="108dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="92dp"
+        android:onClick="focusMee"
+        android:text="Button 2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="72dp"
+        android:onClick="focusMeee"
+        android:text="Button 3" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/button2"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="55dp"
+        android:onClick="focusMeeee"
+        android:text=" Button 4" />
 </RelativeLayout>

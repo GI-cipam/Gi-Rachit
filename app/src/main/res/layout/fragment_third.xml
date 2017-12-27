@@ -3,36 +3,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.rachitsinghal.splashscreen.firstFragment">
+    tools:context="com.example.rachitsinghal.splashscreen.thirdFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="skipMe"
-        android:text="Skip"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
-
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="View Geographical Indication remotely"
+        android:text="Fully Authentic and Easier to use"
         android:textSize="40sp"
-        android:layout_marginTop="13dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ra"
-        android:layout_below="@+id/textView"
+        android:src="@drawable/au"
+        android:layout_below="@+id/textView4"
         android:layout_alignParentStart="true" />
 
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ea"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>

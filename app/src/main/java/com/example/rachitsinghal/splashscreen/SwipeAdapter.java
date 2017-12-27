@@ -28,6 +28,10 @@ public class SwipeAdapter extends FragmentStatePagerAdapter {
             case 1:
                 // Calling a Fragment without sending arguments
                 return new secondFragment();
+            case 2:
+                // Calling a Fragment without sending arguments
+                return new thirdFragment();
+
             default:
                 return null;
 
@@ -36,6 +40,6 @@ public class SwipeAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public int getCount() {
-        return 2;
+        return 3;
     }
 }
