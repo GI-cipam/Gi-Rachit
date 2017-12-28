@@ -29,5 +29,6 @@ dependencies {
     compile 'com.github.sembozdemir:ViewPagerArrowIndicator:1.0.0'
     compile 'com.github.faruktoptas:FancyShowCaseView:0.0.3'
     compile 'com.android.support:support-v4:26.+'
+    compile 'com.miguelcatalan:materialsearchview:1.4.0'
     testCompile 'junit:junit:4.12'
 }
